@@ -1,62 +1,503 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>DATABIND Tecnologia</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Home</a></li>
-							<!-- <li><a href="#one">Who we are</a></li>
-							<li><a href="#two">What we do</a></li>
-							<li><a href="#three">Get in touch</a></li> -->
-						</ul>
-					</nav>
-				</div>
-			</section>
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>DATABIND</h1>
-							<p>Uma empresa de software focada no mercado de seguros. <br />
-							Administre sua empresa com etapas simplificadas.</p>
-							<ul class="actions">
-								<li><a href="#" class="button scrolly">Em breve mais novidades</a></li>
-							</ul>
-						</div>
-					</section>
-
-				<!-- One -->
-
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; DATABIND. All rights reserved.</li><li>Tel: +55 44 98816-1315</a></li>
-					</ul>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="preload" as="image" href="./index_files/logo.svg">
+      <link rel="preload" as="image" href="./index_files/process.png">
+      <link rel="stylesheet" href="./index_files/[root-of-the-server]__8ebb6d4b._.css" data-precedence="next_static/chunks/[root-of-the-server]__8ebb6d4b._.css">
+      <link rel="preload" as="script" fetchpriority="low" href="./index_files/[turbopack]_browser_dev_hmr-client_hmr-client_ts_fd44f5a4._.js.download">
+      <script src="./index_files/node_modules_next_dist_compiled_2ce9398a._.js.download" async=""></script><script src="./index_files/node_modules_next_dist_client_8f19e6fb._.js.download" async=""></script><script src="./index_files/node_modules_next_dist_2ecbf5fa._.js.download" async=""></script><script src="./index_files/node_modules_@swc_helpers_cjs_00636ac3._.js.download" async=""></script><script src="./index_files/_e69f0d32._.js.download" async=""></script><script src="./index_files/_93808211._.js.download" async=""></script><script src="./index_files/node_modules_16429068._.js.download" async=""></script><script src="./index_files/src_89bf67fa._.js.download" async=""></script><script src="./index_files/src_app_layout_tsx_c0237562._.js.download" async=""></script><script src="./index_files/src_sections_6d95389f._.js.download" async=""></script><script src="./index_files/node_modules_lucide-react_dist_esm_icons_87d21c01._.js.download" async=""></script><script src="./index_files/src_app_page_tsx_7d5a6fa2._.js.download" async=""></script>
+      <meta name="next-size-adjust" content="">
+      <title>Databind</title>
+      <meta name="description" content="Databind specializes in creating cutting-edge software solutions tailored to your business needs. Web development, mobile apps, custom software &amp; AI.">
+      <script>document.querySelectorAll('body link[rel="icon"], body link[rel="apple-touch-icon"]').forEach(el => document.head.appendChild(el))</script><script src="./index_files/node_modules_next_dist_build_polyfills_polyfill-nomodule.js.download" nomodule=""></script>
+      <link rel="preload" href="http://localhost:3000/_next/static/media/gyByhwUxId8gMEwcGFWNOITd-s.p.1a6fa3e1.woff2" as="font" crossorigin="" type="font/woff2">
+      <link rel="preload" href="http://localhost:3000/_next/static/media/or3nQ6H_1_WfwkMZI_qYFrcdmhHkjko-s.p.be19f591.woff2" as="font" crossorigin="" type="font/woff2">
+      <style>@font-face{font-family:'__nextjs-Geist';font-style:normal;font-weight:400 600;font-display:swap;src:url(/__nextjs_font/geist-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'__nextjs-Geist Mono';font-style:normal;font-weight:400 600;font-display:swap;src:url(/__nextjs_font/geist-mono-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'__nextjs-Geist';font-style:normal;font-weight:400 600;font-display:swap;src:url(/__nextjs_font/geist-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'__nextjs-Geist Mono';font-style:normal;font-weight:400 600;font-display:swap;src:url(/__nextjs_font/geist-mono-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}</style>
+   </head>
+   <body class="geist_e531dabc-module__QGiZLq__variable geist_mono_68a01160-module__YLcDdW__variable antialiased bg-gray-900 selection:bg-purple-500 selection:text-white">
+      <nav class="fixed w-full z-50 transition-all duration-300 bg-transparent">
+         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+               <div class="flex items-center"><a href="#hero" class="text-2xl font-bold text-white"><img src="./index_files/logo.svg" alt="Databind logo" class="object-cover w-[60px] h-auto aspect-[3/2] m-auto"></a></div>
+               <div class="hidden md:block">
+                  <div class="ml-10 flex items-baseline space-x-4">
+                     <a href="#hero" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">Início</a><a href="#services" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">Serviços</a><a href="#process" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">Processo</a><a href="#sectors" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">Setores</a><a href="#why-us" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">Por que nós</a><a href="#contact" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">Contato</a>
+                     <button class="flex items-center cursor-pointer my-auto ml-24 space-x-2 text-gray-300 hover:text-white rounded-md text-sm font-medium transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe" aria-hidden="true">
+                           <circle cx="12" cy="12" r="10"></circle>
+                           <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                           <path d="M2 12h20"></path>
+                        </svg>
+                        <span>PT</span>
+                     </button>
+                  </div>
+               </div>
+               <div class="md:hidden">
+                  <button class="text-gray-300 hover:text-white p-2 focus:outline-none">
+                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                     </svg>
+                  </button>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <main>
+         <section id="hero" class="min-h-screen flex items-center text-white relative overflow-hidden pt-20" style="background:radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%)">
+            <div aria-hidden="true" class="absolute inset-0 opacity-10 pointer-events-none">
+               <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-purple-500 rounded-full filter blur-2xl animate-pulse-slow"></div>
+               <div class="absolute bottom-1/4 right-1/4 w-72 h-72 bg-indigo-500 rounded-full filter blur-2xl animate-pulse-slower"></div>
+               <div class="absolute top-10 right-20 w-48 h-48 bg-pink-500 rounded-full filter blur-xl animate-pulse-slowest"></div>
+            </div>
+            <div class="container mx-auto px-6 text-center relative z-10">
+               <h1 class="text-5xl md:text-7xl font-extrabold mb-6">
+                  Criando<!-- --> <span class="text-purple-400">Soluções Inovadoras</span> <!-- -->em Software
+               </h1>
+               <p class="text-xl md:text-2xl text-gray-300 mb-10 max-w-3xl mx-auto">Aqui, transformamos suas ideias em experiências digitais poderosas, escaláveis e centradas no usuário.</p>
+               <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6"><a href="#contact" class="border-2 border-purple-600 bg-purple-600 hover:bg-purple-700 hover:border-purple-700 text-white font-semibold py-4 px-10 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg inline-block">Contate-nos</a><a href="#services" class="border-2 bg-transparent border-purple-600 hover:border-purple-700 text-white font-semibold py-4 px-10 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg inline-block">Conheça nossos serviços</a></div>
+            </div>
+            <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down text-gray-400" aria-hidden="true">
+                  <path d="m6 9 6 6 6-6"></path>
+               </svg>
+            </div>
+         </section>
+         <section class="relative py-16 bg-gradient-to-r from-slate-950/50 via-slate-900/50 to-slate-950/50 overflow-hidden">
+            <div class="absolute inset-0">
+               <div class="absolute top-0 left-0 w-96 h-96 bg-violet-600/10 rounded-full blur-3xl animate-pulse"></div>
+               <div class="absolute bottom-16 right-0 w-80 h-80 bg-violet-500/5 rounded-full blur-2xl animate-pulse"></div>
+               <div class="absolute top-1/2 left-1/4 w-4 h-4 bg-violet-400/20 rounded-full animate-bounce"></div>
+               <div class="absolute top-1/4 right-1/3 w-2 h-2 bg-violet-400/20 rounded-full animate-pulse"></div>
+            </div>
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 mb-32">
+               <div class="text-center">
+                  <div class="inline-flex items-center px-4 py-2 bg-purple-600/20 backdrop-blur-sm border border-purple-500/30 rounded-full text-purple-300 text-sm font-medium mb-6">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles mr-2" aria-hidden="true">
+                        <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
+                        <path d="M20 3v4"></path>
+                        <path d="M22 5h-4"></path>
+                        <path d="M4 17v2"></path>
+                        <path d="M5 18H3"></path>
+                     </svg>
+                     Em breve
+                  </div>
+                  <div class="max-w-4xl mx-auto">
+                     <h2 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Vem aí o<!-- --> <span class="font-bold text-[#ff7e50]">Helpfy</span>!
+                     </h2>
+                     <p class="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">Conectando você aos melhores profissionais de forma simples, rápida e confiável.</p>
+                     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                        <div class="flex items-center space-x-2 text-gray-400">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smartphone" aria-hidden="true">
+                              <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+                              <path d="M12 18h.01"></path>
+                           </svg>
+                           <span class="font-medium">iOS &amp; Android</span>
+                        </div>
+                        <div class="hidden sm:block w-px h-6 bg-gray-600"></div>
+                        <div class="text-gray-400 font-medium">Lançamento em 2026</div>
+                     </div>
+                     <div class="mt-12 flex justify-center space-x-8 opacity-60">
+                        <div class="w-16 h-16 bg-purple-800/40 rounded-2xl flex items-center justify-center backdrop-blur-sm border border-purple-500/20 animate-float"><span class="text-2xl">📱</span></div>
+                        <div class="w-16 h-16 bg-purple-800/40 rounded-2xl flex items-center justify-center backdrop-blur-sm border border-purple-500/20 animate-float" style="animation-delay:0.5s"><span class="text-2xl">⚡</span></div>
+                        <div class="w-16 h-16 bg-purple-800/40 rounded-2xl flex items-center justify-center backdrop-blur-sm border border-purple-500/20 animate-float" style="animation-delay:1s"><span class="text-2xl">🚀</span></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-transparent to-gray-900"></div>
+         </section>
+         <section id="services" class="py-30 bg-gray-900 text-white">
+            <div class="container mx-auto px-6">
+               <h2 class="text-4xl font-bold text-center mb-4">
+                  Nossos<!-- --> <span class="text-purple-400">Serviços</span>
+               </h2>
+               <p class="text-purple-400 text-center mb-16 text-lg">Soluções projetadas para impulsionar o seu negócio</p>
+               <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+                  <div class="bg-gray-800 p-8 rounded-xl shadow-xl hover:shadow-purple-500/30 transition-all duration-300 transform hover:-translate-y-2 h-full flex flex-col animate-fadeIn">
+                     <div class="text-purple-500 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code" aria-hidden="true">
+                           <path d="m16 18 6-6-6-6"></path>
+                           <path d="m8 6-6 6 6 6"></path>
+                        </svg>
+                     </div>
+                     <h3 class="text-2xl font-semibold text-white mb-4">Software Sob Medida para Negócios</h3>
+                     <p class="text-gray-400 leading-relaxed flex-grow">Projetamos e desenvolvemos soluções digitais totalmente personalizadas para atender às necessidades exclusivas do seu negócio — seja um sistema interno, portal web ou ferramenta SaaS.</p>
+                  </div>
+                  <div class="bg-gray-800 p-8 rounded-xl shadow-xl hover:shadow-purple-500/30 transition-all duration-300 transform hover:-translate-y-2 h-full flex flex-col animate-fadeIn">
+                     <div class="text-purple-500 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layers" aria-hidden="true">
+                           <path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"></path>
+                           <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"></path>
+                           <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"></path>
+                        </svg>
+                     </div>
+                     <h3 class="text-2xl font-semibold text-white mb-4">Aplicações Web de Alto Desempenho</h3>
+                     <p class="text-gray-400 leading-relaxed flex-grow">Criamos aplicações web modernas, responsivas e escaláveis que proporcionam experiências incríveis aos usuários — ideais para plataformas de serviços, e-commerce e painéis de gestão.</p>
+                  </div>
+                  <div class="bg-gray-800 p-8 rounded-xl shadow-xl hover:shadow-purple-500/30 transition-all duration-300 transform hover:-translate-y-2 h-full flex flex-col animate-fadeIn">
+                     <div class="text-purple-500 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap" aria-hidden="true">
+                           <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+                        </svg>
+                     </div>
+                     <h3 class="text-2xl font-semibold text-white mb-4">Apps Mobile Nativos e Multiplataforma</h3>
+                     <p class="text-gray-400 leading-relaxed flex-grow">Desenvolvemos aplicativos móveis que rodam perfeitamente em iOS e Android, seja nativo ou híbrido — entregando alto desempenho e usabilidade para seus usuários finais.</p>
+                  </div>
+               </div>
+               <div class="flex flex-col justify-center items-center gap-6">
+                  <p class="text-white text-center mt-16 text-lg">Pronto para transformar suas ideias em realidade?</p>
+                  <a href="#contact" class="border-2 bg-transparent border-purple-600 hover:border-purple-700 text-white font-semibold py-4 px-10 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg inline-block">Fale com um especialista!</a>
+               </div>
+            </div>
+         </section>
+         <section id="process" class="py-30 bg-gray-800 text-white">
+            <div class="container mx-auto px-6">
+               <h2 class="text-4xl font-bold text-center mb-4">
+                  Nosso<!-- --> <span class="text-purple-400">Processo de Desenvolvimento</span>
+               </h2>
+               <p class="text-purple-400 text-center mb-12 text-lg">Uma jornada transparente e colaborativa rumo ao sucesso</p>
+               <div class="flex flex-col lg:flex-row md:items-center md:space-x-10">
+                  <div class="flex-1">
+                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="flex items-start space-x-4 p-4 bg-gray-700 rounded-xl shadow-md">
+                           <div class="flex items-center justify-center w-8 h-8 rounded-full bg-purple-500 text-white text-lg font-bold shadow shrink-0">1</div>
+                           <div>
+                              <h3 class="text-lg font-semibold text-white mb-1">Planejamento e Descoberta</h3>
+                              <p class="text-gray-400 text-sm">Entender a visão, objetivos e requisitos essenciais do projeto.</p>
+                           </div>
+                        </div>
+                        <div class="flex items-start space-x-4 p-4 bg-gray-700 rounded-xl shadow-md">
+                           <div class="flex items-center justify-center w-8 h-8 rounded-full bg-purple-500 text-white text-lg font-bold shadow shrink-0">2</div>
+                           <div>
+                              <h3 class="text-lg font-semibold text-white mb-1">Design e Prototipagem</h3>
+                              <p class="text-gray-400 text-sm">Criar wireframes detalhados e protótipos interativos avançados.</p>
+                           </div>
+                        </div>
+                        <div class="flex items-start space-x-4 p-4 bg-gray-700 rounded-xl shadow-md">
+                           <div class="flex items-center justify-center w-8 h-8 rounded-full bg-purple-500 text-white text-lg font-bold shadow shrink-0">3</div>
+                           <div>
+                              <h3 class="text-lg font-semibold text-white mb-1">Desenvolvimento e Integração</h3>
+                              <p class="text-gray-400 text-sm">Trazer sua visão à vida com desenvolvimento ágil.</p>
+                           </div>
+                        </div>
+                        <div class="flex items-start space-x-4 p-4 bg-gray-700 rounded-xl shadow-md">
+                           <div class="flex items-center justify-center w-8 h-8 rounded-full bg-purple-500 text-white text-lg font-bold shadow shrink-0">4</div>
+                           <div>
+                              <h3 class="text-lg font-semibold text-white mb-1">Testes e QA</h3>
+                              <p class="text-gray-400 text-sm">Garantir funcionalidade, segurança e desempenho.</p>
+                           </div>
+                        </div>
+                        <div class="flex items-start space-x-4 p-4 bg-gray-700 rounded-xl shadow-md">
+                           <div class="flex items-center justify-center w-8 h-8 rounded-full bg-purple-500 text-white text-lg font-bold shadow shrink-0">5</div>
+                           <div>
+                              <h3 class="text-lg font-semibold text-white mb-1">Lançamento 🚀</h3>
+                              <p class="text-gray-400 text-sm">Implementar e lançar com sucesso o produto.</p>
+                           </div>
+                        </div>
+                        <div class="flex items-start space-x-4 p-4 bg-gray-700 rounded-xl shadow-md">
+                           <div class="flex items-center justify-center w-8 h-8 rounded-full bg-purple-500 text-white text-lg font-bold shadow shrink-0">6</div>
+                           <div>
+                              <h3 class="text-lg font-semibold text-white mb-1">Suporte e Evolução</h3>
+                              <p class="text-gray-400 text-sm">Oferecer suporte contínuo e melhorias para o futuro.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="flex-1 mt-10 md:mt-0">
+                     <div class="relative w-full h-64 md:h-full">
+                        <div class="absolute inset-0 rounded-xl bg-purple-500 blur-3xl opacity-30 z-[-1]"></div>
+                        <img src="./index_files/process.png" alt="Ilustração representando o processo de desenvolvimento de software" class="rounded-xl w-full h-full object-cover">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="sectors" class="py-30 bg-gray-900 relative overflow-hidden">
+            <div class="absolute inset-0">
+               <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5"></div>
+               <div class="absolute top-0 left-0 w-full h-full opacity-10">
+                  <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-primary rounded-full blur-3xl"></div>
+                  <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent rounded-full blur-3xl"></div>
+               </div>
+            </div>
+            <div class="container mx-auto px-4 relative z-10">
+               <div class="max-w-6xl mx-auto">
+                  <div class="text-center mb-16">
+                     <h2 class="text-4xl font-bold text-center mb-4">
+                        Setores<!-- --> <span class="text-purple-400">Atendidos</span>
+                     </h2>
+                     <p class="text-purple-400 text-center mb-12 text-lg">Soluções especializadas para diversos mercados</p>
+                     <div class="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto"></div>
+                  </div>
+                  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                     <div class="group relative bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-2xl overflow-hidden hover:border-primary/50 transition-all duration-500 transform hover:-translate-y-2">
+                        <div class="absolute inset-0 bg-cover bg-center opacity-20 group-hover:opacity-50 transition-opacity duration-500" style="background-image:url(https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&amp;h=400&amp;fit=crop)"></div>
+                        <div class="relative z-10 p-6">
+                           <div class="w-12 h-12 bg-purple-500 rounded-xl flex items-center justify-center mb-12 text-white group-hover:scale-110 transition-transform duration-300">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap" aria-hidden="true">
+                                 <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+                              </svg>
+                           </div>
+                           <h3 class="text-xl font-poppins font-bold text-white mb-4">Startups</h3>
+                           <p class="text-gray-300 text-sm leading-relaxed">Soluções escaláveis e econômicas para empresas em crescimento.</p>
+                           <div class="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-purple-800 to-purple-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
+                        </div>
+                     </div>
+                     <div class="group relative bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-2xl overflow-hidden hover:border-primary/50 transition-all duration-500 transform hover:-translate-y-2">
+                        <div class="absolute inset-0 bg-cover bg-center opacity-20 group-hover:opacity-50 transition-opacity duration-500" style="background-image:url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&amp;h=400&amp;fit=crop)"></div>
+                        <div class="relative z-10 p-6">
+                           <div class="w-12 h-12 bg-purple-500 rounded-xl flex items-center justify-center mb-12 text-white group-hover:scale-110 transition-transform duration-300">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dollar-sign" aria-hidden="true">
+                                 <line x1="12" x2="12" y1="2" y2="22"></line>
+                                 <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                              </svg>
+                           </div>
+                           <h3 class="text-xl font-poppins font-bold text-white mb-4">Seguradoras</h3>
+                           <p class="text-gray-300 text-sm leading-relaxed">Tecnologia para seguradoras com foco em eficiência e segurança.</p>
+                           <div class="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-purple-800 to-purple-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
+                        </div>
+                     </div>
+                     <div class="group relative bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-2xl overflow-hidden hover:border-primary/50 transition-all duration-500 transform hover:-translate-y-2">
+                        <div class="absolute inset-0 bg-cover bg-center opacity-20 group-hover:opacity-50 transition-opacity duration-500" style="background-image:url(https://images.unsplash.com/photo-1638969725799-40c112559cbc?w=600&amp;h=400&amp;fit=crop)"></div>
+                        <div class="relative z-10 p-6">
+                           <div class="w-12 h-12 bg-purple-500 rounded-xl flex items-center justify-center mb-12 text-white group-hover:scale-110 transition-transform duration-300">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-bag" aria-hidden="true">
+                                 <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path>
+                                 <path d="M3 6h18"></path>
+                                 <path d="M16 10a4 4 0 0 1-8 0"></path>
+                              </svg>
+                           </div>
+                           <h3 class="text-xl font-poppins font-bold text-white mb-4">Varejo</h3>
+                           <p class="text-gray-300 text-sm leading-relaxed">Otimização de vendas e experiência do cliente através da tecnologia.</p>
+                           <div class="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-purple-800 to-purple-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="why-us" class="py-30 bg-gray-900 text-white">
+            <div class="container mx-auto px-6">
+               <h2 class="text-4xl font-bold text-center mb-4">
+                  Por que escolher a<!-- --> <span class="text-purple-400">Databind</span>?
+               </h2>
+               <p class="text-purple-400 text-center mb-16 text-lg">Seja nosso parceiro para a excelência digital</p>
+               <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                  <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:bg-gray-700/60 transition-colors duration-300 h-full flex flex-col">
+                     <div class="flex items-center mb-4">
+                        <div class="text-purple-400 mr-4 flex-shrink-0">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb" aria-hidden="true">
+                              <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
+                              <path d="M9 18h6"></path>
+                              <path d="M10 22h4"></path>
+                           </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white">Soluções Inovadoras</h3>
+                     </div>
+                     <p class="text-gray-400 leading-relaxed flex-grow">Aproveitamos as tecnologias mais recentes para fornecer software criativo e preparado para o futuro.</p>
+                  </div>
+                  <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:bg-gray-700/60 transition-colors duration-300 h-full flex flex-col">
+                     <div class="flex items-center mb-4">
+                        <div class="text-purple-400 mr-4 flex-shrink-0">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target" aria-hidden="true">
+                              <circle cx="12" cy="12" r="10"></circle>
+                              <circle cx="12" cy="12" r="6"></circle>
+                              <circle cx="12" cy="12" r="2"></circle>
+                           </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white">Abordagem Centrada no Cliente</h3>
+                     </div>
+                     <p class="text-gray-400 leading-relaxed flex-grow">Seu sucesso é a nossa prioridade. Trabalhamos lado a lado com você para entender e alcançar seus objetivos.</p>
+                  </div>
+                  <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:bg-gray-700/60 transition-colors duration-300 h-full flex flex-col">
+                     <div class="flex items-center mb-4">
+                        <div class="text-purple-400 mr-4 flex-shrink-0">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check" aria-hidden="true">
+                              <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                              <path d="m9 12 2 2 4-4"></path>
+                           </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white">Qualidade e Confiabilidade</h3>
+                     </div>
+                     <p class="text-gray-400 leading-relaxed flex-grow">Nosso compromisso com a qualidade garante produtos de software robustos, seguros e confiáveis.</p>
+                  </div>
+                  <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:bg-gray-700/60 transition-colors duration-300 h-full flex flex-col">
+                     <div class="flex items-center mb-4">
+                        <div class="text-purple-400 mr-4 flex-shrink-0">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users" aria-hidden="true">
+                              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                              <path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
+                              <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                              <circle cx="9" cy="7" r="4"></circle>
+                           </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white">Equipe Especializada</h3>
+                     </div>
+                     <p class="text-gray-400 leading-relaxed flex-grow">Uma equipe apaixonada, composta por designers, desenvolvedores e estrategistas experientes, pronta para enfrentar qualquer desafio.</p>
+                  </div>
+                  <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:bg-gray-700/60 transition-colors duration-300 h-full flex flex-col">
+                     <div class="flex items-center mb-4">
+                        <div class="text-purple-400 mr-4 flex-shrink-0">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap" aria-hidden="true">
+                              <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+                           </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white">Metodologia Ágil</h3>
+                     </div>
+                     <p class="text-gray-400 leading-relaxed flex-grow">Processo de desenvolvimento flexível e iterativo para entrega mais rápida e adaptabilidade.</p>
+                  </div>
+                  <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:bg-gray-700/60 transition-colors duration-300 h-full flex flex-col">
+                     <div class="flex items-center mb-4">
+                        <div class="text-purple-400 mr-4 flex-shrink-0">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square" aria-hidden="true">
+                              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                           </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white">Comunicação Transparente</h3>
+                     </div>
+                     <p class="text-gray-400 leading-relaxed flex-grow">Mantemos uma comunicação aberta e clara durante todo o ciclo de vida do projeto.</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="contact" class="py-30 bg-gradient-to-br from-gray-900 via-purple-900/30 to-indigo-900 text-white">
+            <div class="container mx-auto px-6">
+               <h2 class="text-4xl font-bold text-center mb-4">
+                  Entre em<!-- --> <span class="text-purple-400">Contato</span>
+               </h2>
+               <p class="text-purple-400 text-center mb-16 text-lg">Estamos aqui para ajudar e responder qualquer dúvida que você possa ter</p>
+               <div class="max-w-4xl mx-auto bg-gray-800/80 backdrop-blur-sm p-8 md:p-12 rounded-xl shadow-2xl">
+                  <div class="grid md:grid-cols-2 gap-10 md:gap-12">
+                     <div class="space-y-6">
+                        <h3 class="text-2xl font-semibold text-purple-300 mb-4">Informações</h3>
+                        <p class="text-gray-300">Sinta-se à vontade para entrar em contato conosco por meio de qualquer um dos seguintes canais. Aguardamos seu contato!</p>
+                        <div class="space-y-4">
+                           <a href="mailto:contato@databind.com.br" class="flex items-center space-x-3 text-gray-300 hover:text-purple-400 transition-colors group">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail group-hover:animate-pulse" aria-hidden="true">
+                                 <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                                 <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                              </svg>
+                              <span>contato@databind.com.br</span>
+                           </a>
+                           <a href="tel:+5544988161315" class="flex items-center space-x-3 text-gray-300 hover:text-purple-400 transition-colors group">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone group-hover:animate-pulse" aria-hidden="true">
+                                 <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path>
+                              </svg>
+                              <span>+55 44 98816-1315</span>
+                           </a>
+                           <p class="flex items-start space-x-3 text-gray-300">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin flex-shrink-0" aria-hidden="true">
+                                 <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                                 <circle cx="12" cy="10" r="3"></circle>
+                              </svg>
+                              <span>Brasil</span>
+                           </p>
+                        </div>
+                     </div>
+                     <form class="space-y-6">
+                        <div><label for="name" class="block text-sm font-medium text-gray-300 mb-1">Nome completo</label><input type="text" id="name" required="" aria-required="true" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 outline-none transition-shadow" placeholder="João da Silva" name="name" value=""></div>
+                        <div><label for="email" class="block text-sm font-medium text-gray-300 mb-1">E-mail</label><input type="email" id="email" required="" aria-required="true" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 outline-none transition-shadow" placeholder="joao@email.com" name="email" value=""></div>
+                        <div><label for="message" class="block text-sm font-medium text-gray-300 mb-1">Mensagem</label><textarea name="message" id="message" rows="4" required="" aria-required="true" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 outline-none transition-shadow" placeholder="Como podemos lhe ajudar?"></textarea></div>
+                        <div>
+                           <button type="button" onclick="sendToWhatsApp()" class="w-full flex justify-center items-center gap-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 cursor-pointer transform hover:scale-105 shadow-md disabled:opacity-70 disabled:cursor-not-allowed">
+                              Enviar Mensagem
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                 <path d="M15 3h6v6"></path>
+                                 <path d="M10 14 21 3"></path>
+                                 <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                              </svg>
+                           </button>
+                           <style>
+                              .error-field {
+                                 border-color: #ef4444 !important;
+                                 animation: shake 0.5s;
+                              }
+                              @keyframes shake {
+                                 0%, 100% { transform: translateX(0); }
+                                 25% { transform: translateX(-5px); }
+                                 75% { transform: translateX(5px); }
+                              }
+                           </style>
+                           <script>
+                              function sendToWhatsApp() {
+                                 const name = document.getElementById('name');
+                                 const email = document.getElementById('email');
+                                 const message = document.getElementById('message');
+                                 
+                                 // Remove any existing error classes
+                                 [name, email, message].forEach(field => {
+                                    field.classList.remove('error-field');
+                                 });
+                                 
+                                 // Check each field and add error class if empty
+                                 let hasError = false;
+                                 if (!name.value) {
+                                    name.classList.add('error-field');
+                                    hasError = true;
+                                 }
+                                 if (!email.value) {
+                                    email.classList.add('error-field');
+                                    hasError = true;
+                                 }
+                                 if (!message.value) {
+                                    message.classList.add('error-field');
+                                    hasError = true;
+                                 }
+                                 
+                                 if (hasError) {
+                                    return;
+                                 }
+                                 
+                                 const text = `Nome: ${name.value}%0AEmail: ${email.value}%0AMensagem: ${message.value}`;
+                                 const whatsappUrl = `https://wa.me/5544988161315?text=${text}`;
+                                 
+                                 window.open(whatsappUrl, '_blank');
+                              }
+                           </script>
+                           
+                           </button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <!--$--><!--/$--><!--$--><!--/$-->
+      <button class="fixed bottom-10 right-10 bg-purple-600 text-white p-3 rounded-full shadow-lg z-50 transform transition-all duration-300 hover:bg-purple-800 cursor-pointer
+         translate-x-24 opacity-0">
+         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up" aria-hidden="true">
+            <path d="m5 12 7-7 7 7"></path>
+            <path d="M12 19V5"></path>
+         </svg>
+      </button>
+      <footer class="bg-gray-900 text-gray-400 py-10 border-t border-gray-700/50">
+         <div class="container mx-auto px-6 text-center">
+            <p>
+               © <!-- -->2025<!-- --> Databind. <!-- -->Todos os direitos reservados.
+            </p>
+            <p class="text-sm mt-1">Criando o futuro do software.</p>
+         </div>
+      </footer>
+      <script src="./index_files/[turbopack]_browser_dev_hmr-client_hmr-client_ts_fd44f5a4._.js.download" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"3:\"$Sreact.fragment\"\n5:I[\"[project]/node_modules/next/dist/client/components/layout-router.js [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429068._.js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\"],\"default\"]\n6:I[\"[project]/node_modules/next/dist/client/components/render-from-template-context.js [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429068._.js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\"],\"default\"]\na:I[\"[project]/src/contexts/LanguageContext.tsx [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429068._.js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\"],\"LanguageProvider\"]\nb:I[\"[project]/src/components/layout/Navbar.tsx [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429068._.js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\"],\"Navbar\"]\nf:I[\"[project]/src/components/layout/ScrollToTopButton.tsx [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429068._.js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\"],\"ScrollToTopButton\"]\n10:I[\"[project]/src/components/layout/Footer.tsx [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429068._.js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\"],\"Footer\"]\n13:I[\"[project]/src/sections/Hero.tsx [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429068._.js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\",\"/_next/static/chunks/src_sections_6d95389f._.js\",\"/_next/static/chunks/node_modules_lucide-react_dist_esm_icons_87d21c01._.js\",\"/_next/static/chunks/src_app_page_tsx_7d5a6fa2._.js\"],\"Hero\"]\n14:I[\"[project]/src/sections/HelpfyTeaser.tsx [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429068._"])</script><script>self.__next_f.push([1,".js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\",\"/_next/static/chunks/src_sections_6d95389f._.js\",\"/_next/static/chunks/node_modules_lucide-react_dist_esm_icons_87d21c01._.js\",\"/_next/static/chunks/src_app_page_tsx_7d5a6fa2._.js\"],\"HelpfyTeaser\"]\n15:I[\"[project]/src/sections/Services.tsx [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429068._.js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\",\"/_next/static/chunks/src_sections_6d95389f._.js\",\"/_next/static/chunks/node_modules_lucide-react_dist_esm_icons_87d21c01._.js\",\"/_next/static/chunks/src_app_page_tsx_7d5a6fa2._.js\"],\"Services\"]\n16:I[\"[project]/src/sections/Process.tsx [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429068._.js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\",\"/_next/static/chunks/src_sections_6d95389f._.js\",\"/_next/static/chunks/node_modules_lucide-react_dist_esm_icons_87d21c01._.js\",\"/_next/static/chunks/src_app_page_tsx_7d5a6fa2._.js\"],\"Process\"]\n17:I[\"[project]/src/sections/Sectors.tsx [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429068._.js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\",\"/_next/static/chunks/src_sections_6d95389f._.js\",\"/_next/static/chunks/node_modules_lucide-react_dist_esm_icons_87d21c01._.js\",\"/_next/static/chunks/src_app_page_tsx_7d5a6fa2._.js\"],\"default\"]\n18:I[\"[project]/src/sections/WhyUs.tsx [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429068._.js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\",\"/_next/static/chunks/src_sections_6d95389f._.js\",\"/_next/static/chunks/node_modules_lucide-react_dist_esm_icons_87d21c01._.js\",\"/_next/static/chunks/src_app_page_tsx_7d5a6fa2._.js\"],\"WhyUs\"]\n19:I[\"[project]/src/sections/Contact.tsx [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429"])</script><script>self.__next_f.push([1,"068._.js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\",\"/_next/static/chunks/src_sections_6d95389f._.js\",\"/_next/static/chunks/node_modules_lucide-react_dist_esm_icons_87d21c01._.js\",\"/_next/static/chunks/src_app_page_tsx_7d5a6fa2._.js\"],\"Contact\"]\n1d:I[\"[project]/node_modules/next/dist/client/components/metadata/metadata-boundary.js [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429068._.js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\"],\"MetadataBoundary\"]\n20:I[\"[project]/node_modules/next/dist/client/components/metadata/metadata-boundary.js [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429068._.js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\"],\"OutletBoundary\"]\n27:I[\"[project]/node_modules/next/dist/client/components/metadata/async-metadata.js [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429068._.js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\"],\"AsyncMetadataOutlet\"]\n2d:I[\"[project]/node_modules/next/dist/client/components/metadata/metadata-boundary.js [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429068._.js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\"],\"ViewportBoundary\"]\n33:I[\"[project]/node_modules/next/dist/client/components/error-boundary.js [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429068._.js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\"],\"default\"]\n34:\"$Sreact.suspense\"\n35:I[\"[project]/node_modules/next/dist/client/components/metadata/async-metadata.js [app-client] (ecmascript)\",[\"/_next/static/chunks/node_modules_16429068._.js\",\"/_next/static/chunks/src_89bf67fa._.js\",\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\"],\"AsyncMetadata\"]\n:HL[\"/_next/static/chunks/%5Broot-of-the-server%5D__8ebb"])</script><script>self.__next_f.push([1,"6d4b._.css\",\"style\"]\n:HL[\"/_next/static/media/gyByhwUxId8gMEwcGFWNOITd-s.p.1a6fa3e1.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/or3nQ6H_1_WfwkMZI_qYFrcdmhHkjko-s.p.be19f591.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n2:{\"name\":\"Preloads\",\"env\":\"Server\",\"key\":null,\"owner\":null,\"stack\":[],\"props\":{\"preloadCallbacks\":[\"$E(()=\u003e{ctx.componentMod.preloadStyle(fullHref,ctx.renderOpts.crossOrigin,ctx.nonce)})\",\"$E(()=\u003e{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)})\",\"$E(()=\u003e{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)})\"]}}\n1:D\"$2\"\n1:null\n7:{\"name\":\"RootLayout\",\"env\":\"Server\",\"key\":null,\"owner\":null,\"stack\":[],\"props\":{\"children\":[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$3\",null,{\"children\":[\"$\",\"$L6\",null,{},null,[],1]},null,[],0],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$Y\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"},null,[],1],\"params\":\"$Y\"}}\n4:D\"$7\"\n9:{\"name\":\"NoopHead\",\"env\":\"Server\",\"key\":null,\"owner\":\"$7\",\"stack\":[[\"RootLayout\",\"/home/gustavo/projects/databind/databind-website/.next/server/chunks/ssr/[root-of-the-server]__2a1a5a44._.js\",259,264]],\"props\":{\"children\":[[\"$\",\"title\",null,{\"children\":\"Databind\"},\"$7\",[[\"RootLayout\",\"/home/gustavo/projects/databind/databind-website/.next/server/chunks/ssr/[root-of-the-server]__2a1a5a44._.js\",261,272]],1],[\"$\",\"meta\",null,{\"name\":\"description\",\"content\":\"Databind specializes in creating cutting-edge software solutions tailored to your business needs. Web development, mobile apps, custom software \u0026 AI.\"},\"$7\",[[\"RootLayout\",\"/home/gustavo/projects/databind/databind-website/.next/server/chunks/ssr/[root-of-the-server]__2a1a5a44._.js\",268,272]],1],\"$Y\",\"$Y\",\"$Y\",\"$Y\"]}}\n8:D\"$9\"\n8:null\nd:{\"name\":\"NotFound\",\"env\":\"Server\",\"key\":null,\"owner\":null,\"stack\":[],\"props\":{}}\nc:D\"$d\"\ne:{\"name\":\"HTTPAccessErrorFallback\",\"env\":\"Server\",\""])</script><script>self.__next_f.push([1,"key\":null,\"owner\":\"$d\",\"stack\":[],\"props\":{\"status\":404,\"message\":\"This page could not be found.\"}}\nc:D\"$e\"\nc:[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"},\"$e\",[],1],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}},\"$e\",[],1],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404},\"$e\",[],1],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"},\"$e\",[],1]},\"$e\",[],1]]},\"$e\",[],1]},\"$e\",[],1]]\n4:[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$8\",[\"$\",\"body\",null,{\"className\":\"geist_e531dabc-module__QGiZLq__variable geist_mono_68a01160-module__YLcDdW__variable antialiased bg-gray-900 selection:bg-purple-500 selection:text-white\",\"children\":[\"$\",\"$La\",null,{\"children\":[[\"$\",\"$Lb\",null,{},\"$7\",[[\"RootLayout\",\"/home/gustavo/projects/databind/databind-website/.next/server/chunks/ssr/[root-of-the-server]__2a1a5a44._.js\",318,276]],1],[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L6\",null,{},null,[],1],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[\"$c\",[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"},null,[],1],[\"$\",\"$Lf\",null,{},\"$7\",[[\"RootLayout\",\""])</script><script>self.__next_f.push([1,"/home/gustavo/projects/databind/databind-website/.next/server/chunks/ssr/[root-of-the-server]__2a1a5a44._.js\",324,276]],1],[\"$\",\"$L10\",null,{},\"$7\",[[\"RootLayout\",\"/home/gustavo/projects/databind/databind-website/.next/server/chunks/ssr/[root-of-the-server]__2a1a5a44._.js\",329,276]],1]]},\"$7\",[[\"RootLayout\",\"/home/gustavo/projects/databind/databind-website/.next/server/chunks/ssr/[root-of-the-server]__2a1a5a44._.js\",316,278]],1]},\"$7\",[[\"RootLayout\",\"/home/gustavo/projects/databind/databind-website/.next/server/chunks/ssr/[root-of-the-server]__2a1a5a44._.js\",314,264]],1]]},\"$7\",[[\"RootLayout\",\"/home/gustavo/projects/databind/databind-website/.next/server/chunks/ssr/[root-of-the-server]__2a1a5a44._.js\",256,263]],1]\n12:{\"name\":\"Home\",\"env\":\"Server\",\"key\":null,\"owner\":null,\"stack\":[],\"props\":{\"params\":\"$@\",\"searchParams\":\"Unknown Value: React could not send it from the server.\\nRoute / with `dynamic = \\\"error\\\"` couldn't be rendered statically because it used `searchParams.then`. See more info here: https://nextjs.org/docs/app/building-your-application/rendering/static-and-dynamic#dynamic-rendering\"}}\n11:D\"$12\"\n11:[\"$\",\"main\",null,{\"children\":[[\"$\",\"$L13\",null,{},\"$12\",[[\"Home\",\"/home/gustavo/projects/databind/databind-website/.next/server/chunks/ssr/_a709081a._.js\",307,264]],1],[\"$\",\"$L14\",null,{},\"$12\",[[\"Home\",\"/home/gustavo/projects/databind/databind-website/.next/server/chunks/ssr/_a709081a._.js\",312,264]],1],[\"$\",\"$L15\",null,{},\"$12\",[[\"Home\",\"/home/gustavo/projects/databind/databind-website/.next/server/chunks/ssr/_a709081a._.js\",317,264]],1],[\"$\",\"$L16\",null,{},\"$12\",[[\"Home\",\"/home/gustavo/projects/databind/databind-website/.next/server/chunks/ssr/_a709081a._.js\",322,264]],1],[\"$\",\"$L17\",null,{},\"$12\",[[\"Home\",\"/home/gustavo/projects/databind/databind-website/.next/server/chunks/ssr/_a709081a._.js\",327,264]],1],[\"$\",\"$L18\",null,{},\"$12\",[[\"Home\",\"/home/gustavo/projects/databind/databind-website/.next/server/chunks/ssr/_a709081a._.js\",332,264]],1],[\"$\",\"$L19\",null,{},\"$12\",[[\"Home\",\"/home/gustavo/projects/da"])</script><script>self.__next_f.push([1,"tabind/databind-website/.next/server/chunks/ssr/_a709081a._.js\",337,264]],1]]},\"$12\",[[\"Home\",\"/home/gustavo/projects/databind/databind-website/.next/server/chunks/ssr/_a709081a._.js\",305,263]],1]\n1b:{\"name\":\"\",\"env\":\"Server\",\"key\":null,\"owner\":null,\"stack\":[],\"props\":{}}\n1a:D\"$1b\"\n1c:{\"name\":\"MetadataTree\",\"env\":\"Server\",\"key\":null,\"owner\":null,\"stack\":[],\"props\":{}}\n1a:D\"$1c\"\n1f:{\"name\":\"__next_metadata_boundary__\",\"env\":\"Server\",\"key\":null,\"owner\":\"$1c\",\"stack\":[],\"props\":{}}\n1e:D\"$1f\"\n1a:[\"$\",\"$L1d\",null,{\"children\":\"$L1e\"},\"$1c\",[],1]\n22:{\"name\":\"__next_outlet_boundary__\",\"env\":\"Server\",\"key\":null,\"owner\":null,\"stack\":[],\"props\":{\"ready\":\"$E(async function getViewportReady() {\\n        await viewport();\\n        return undefined;\\n    })\"}}\n21:D\"$22\"\n24:{\"name\":\"__next_outlet_boundary__\",\"env\":\"Server\",\"key\":null,\"owner\":null,\"stack\":[],\"props\":{\"ready\":\"$E(async function getMetadataReady() {\\n        // Only warm up metadata() call when it's blocking metadata,\\n        // otherwise it will be fully managed by AsyncMetadata component.\\n        if (!serveStreamingMetadata) {\\n            await metadata();\\n        }\\n        return undefined;\\n    })\"}}\n23:D\"$24\"\n26:{\"name\":\"StreamingMetadataOutlet\",\"env\":\"Server\",\"key\":null,\"owner\":null,\"stack\":[],\"props\":{}}\n25:D\"$26\"\n25:[\"$\",\"$L27\",null,{\"promise\":\"$@28\"},\"$26\",[],1]\n2a:{\"name\":\"NonIndex\",\"env\":\"Server\",\"key\":null,\"owner\":null,\"stack\":[],\"props\":{\"pagePath\":\"/\",\"statusCode\":200,\"isPossibleServerAction\":false}}\n29:D\"$2a\"\n29:null\n2c:{\"name\":\"ViewportTree\",\"env\":\"Server\",\"key\":\"qsBTnOT9f-4VPSw171HLQ\",\"owner\":null,\"stack\":[],\"props\":{}}\n2b:D\"$2c\"\n2f:{\"name\":\"__next_viewport_boundary__\",\"env\":\"Server\",\"key\":null,\"owner\":\"$2c\",\"stack\":[],\"props\":{}}\n2e:D\"$2f\"\n2b:[\"$\",\"$3\",\"qsBTnOT9f-4VPSw171HLQ\",{\"children\":[[\"$\",\"$L2d\",null,{\"children\":\"$L2e\"},\"$2c\",[],1],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"},\"$2c\",[],1]]},null,null,0]\n31:{\"name\":\"\",\"env\":\"Server\",\"key\":null,\"owner\":null,\"stack\":[],\"props\":{}}\n30:D\"$31\"\n30:null\n32:[]\n0:{\"P\":\"$1\",\"b\":\"develop"])</script><script>self.__next_f.push([1,"ment\",\"p\":\"\",\"c\":[\"\",\"\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$3\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/%5Broot-of-the-server%5D__8ebb6d4b._.css\",\"precedence\":\"next_static/chunks/[root-of-the-server]__8ebb6d4b._.css\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"},null,[],0],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/node_modules_16429068._.js\",\"async\":true,\"nonce\":\"$undefined\"},null,[],0],[\"$\",\"script\",\"script-1\",{\"src\":\"/_next/static/chunks/src_89bf67fa._.js\",\"async\":true,\"nonce\":\"$undefined\"},null,[],0],[\"$\",\"script\",\"script-2\",{\"src\":\"/_next/static/chunks/src_app_layout_tsx_c0237562._.js\",\"async\":true,\"nonce\":\"$undefined\"},null,[],0]],\"$4\"]},null,[],0],{\"children\":[\"__PAGE__\",[\"$\",\"$3\",\"c\",{\"children\":[\"$11\",\"$1a\",[[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/src_sections_6d95389f._.js\",\"async\":true,\"nonce\":\"$undefined\"},null,[],0],[\"$\",\"script\",\"script-1\",{\"src\":\"/_next/static/chunks/node_modules_lucide-react_dist_esm_icons_87d21c01._.js\",\"async\":true,\"nonce\":\"$undefined\"},null,[],0],[\"$\",\"script\",\"script-2\",{\"src\":\"/_next/static/chunks/src_app_page_tsx_7d5a6fa2._.js\",\"async\":true,\"nonce\":\"$undefined\"},null,[],0]],[\"$\",\"$L20\",null,{\"children\":[\"$L21\",\"$L23\",\"$25\"]},null,[],1]]},null,[],0],{},null,false]},null,false],[\"$\",\"$3\",\"h\",{\"children\":[\"$29\",\"$2b\",\"$30\"]},null,[],0],false]],\"m\":\"$W32\",\"G\":[\"$33\",\"$undefined\"],\"s\":false,\"S\":false}\n1e:[\"$\",\"$34\",null,{\"fallback\":null,\"children\":[\"$\",\"$L35\",null,{\"promise\":\"$@36\"},\"$1f\",[],1]},\"$1f\",[],1]\n23:null\n2e:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"},\"$22\",[],0],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"},\"$22\",[],0]]\n21:null\n36:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"Databind\"},\"$1f\",[],0],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Databind specializes in creating cutting-edge software solutions tailored to your business needs. Web development, mobile apps, custom software \u0026 AI.\"},\"$1f\",[],0]],\"error\":"])</script><script>self.__next_f.push([1,"null,\"digest\":\"$undefined\"}\n28:{\"metadata\":\"$36:metadata\",\"error\":null,\"digest\":\"$undefined\"}\n"])</script>
+      <next-route-announcer style="position: absolute;">
+         <template shadowrootmode="open">
+            <div aria-live="assertive" id="__next-route-announcer__" role="alert" style="position: absolute; border: 0px; height: 1px; margin: -1px; padding: 0px; width: 1px; clip: rect(0px, 0px, 0px, 0px); overflow: hidden; white-space: nowrap; overflow-wrap: normal;"></div>
+         </template>
+      </next-route-announcer>
+      <nextjs-portal>
+         <template shadowrootmode="open">
+            <style>:host{all:initial;direction:ltr}*,*::before,*::after{box-sizing:border-box}:host{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}article,aside,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}:host{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';font-size:16px;font-weight:400;line-height:1.5;color:var(--color-font);text-align:left}:host:not(button){background-color:#fff}[tabindex='-1']:focus:not(:focus-visible){outline:0 !important}hr{box-sizing:content-box;height:0;overflow:visible}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:8px}p{margin-top:0;margin-bottom:16px}abbr[title],abbr[data-original-title]{text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted;cursor:help;border-bottom:0;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none}address{margin-bottom:16px;font-style:normal;line-height:inherit}ol,ul,dl{margin-top:0;margin-bottom:16px}ol ol,ul ul,ol ul,ul ol{margin-bottom:0}dt{font-weight:700}dd{margin-bottom:8px;margin-left:0}blockquote{margin:0 0 16px}b,strong{font-weight:bolder}small{font-size:80%}sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}a{color:#007bff;text-decoration:none;background-color:transparent}a:hover{color:#0056b3;text-decoration:underline}a:not([href]){color:inherit;text-decoration:none}a:not([href]):hover{color:inherit;text-decoration:none}pre,code,kbd,samp{font-family:SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace;font-size:1em}pre{margin-top:0;margin-bottom:16px;overflow:auto}figure{margin:0 0 16px}img{vertical-align:middle;border-style:none}svg{overflow:hidden;vertical-align:middle}table{border-collapse:collapse}caption{padding-top:12px;padding-bottom:12px;color:#6c757d;text-align:left;caption-side:bottom}th{text-align:inherit}label{display:inline-block;margin-bottom:8px}button{border-radius:0;border:0;padding:0;margin:0;background:none;appearance:none;-webkit-appearance:none}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}button:focus:not(:focus-visible){outline:none}input,button,select,optgroup,textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button,input{overflow:visible}button,select{text-transform:none}select{word-wrap:normal}button,[type='button'],[type='reset'],[type='submit']{-webkit-appearance:button}button:not(:disabled),[type='button']:not(:disabled),[type='reset']:not(:disabled),[type='submit']:not(:disabled){cursor:pointer}button::-moz-focus-inner,[type='button']::-moz-focus-inner,[type='reset']::-moz-focus-inner,[type='submit']::-moz-focus-inner{padding:0;border-style:none}input[type='radio'],input[type='checkbox']{box-sizing:border-box;padding:0}input[type='date'],input[type='time'],input[type='datetime-local'],input[type='month']{-webkit-appearance:listbox}textarea{overflow:auto;resize:vertical}fieldset{min-width:0;padding:0;margin:0;border:0}legend{display:block;width:100%;max-width:100%;padding:0;margin-bottom:8px;font-size:24px;line-height:inherit;color:inherit;white-space:normal}progress{vertical-align:baseline}[type='number']::-webkit-inner-spin-button,[type='number']::-webkit-outer-spin-button{height:auto}[type='search']{outline-offset:-2px;-webkit-appearance:none}[type='search']::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}output{display:inline-block}summary{display:list-item;cursor:pointer}template{display:none}[hidden]{display:none !important}</style>
+            <style>:host{position:absolute;--color-font:#757575;--color-backdrop:rgba(250,250,250,0.8);--color-border-shadow:rgba(0,0,0,0.145);--color-title-color:#1f1f1f;--color-stack-notes:#777;--color-accents-1:#808080;--color-accents-2:#222222;--color-accents-3:#404040;--font-stack-monospace:'__nextjs-Geist Mono','Geist Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace;--font-stack-sans:'__nextjs-Geist','Geist',-apple-system,'Source Sans Pro',sans-serif;font-family:var(--font-stack-sans);font-variant-ligatures:none;--shadow-sm:0 1px 2px 0 rgb(0 0 0 / 0.05);--shadow:0 1px 3px 0 rgb(0 0 0 / 0.1),0 1px 2px -1px rgb(0 0 0 / 0.1);--shadow-md:0 4px 6px -1px rgb(0 0 0 / 0.1),0 2px 4px -2px rgb(0 0 0 / 0.1);--shadow-lg:0 10px 15px -3px rgb(0 0 0 / 0.1),0 4px 6px -4px rgb(0 0 0 / 0.1);--shadow-xl:0 20px 25px -5px rgb(0 0 0 / 0.1),0 8px 10px -6px rgb(0 0 0 / 0.1);--shadow-2xl:0 25px 50px -12px rgb(0 0 0 / 0.25);--shadow-inner:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--shadow-none:0 0 #0000;--shadow-small:0px 2px 2px rgba(0,0,0,0.04);--shadow-menu:0px 1px 1px rgba(0,0,0,0.02),0px 4px 8px -4px rgba(0,0,0,0.04),0px 16px 24px -8px rgba(0,0,0,0.06);--focus-color:var(--color-blue-800);--focus-ring:2px solid var(--focus-color);--timing-swift:cubic-bezier(0.23,0.88,0.26,0.92);--timing-overlay:cubic-bezier(0.175,0.885,0.32,1.1);--rounded-none:0px;--rounded-sm:2px;--rounded-md:4px;--rounded-md-2:6px;--rounded-lg:8px;--rounded-xl:12px;--rounded-2xl:16px;--rounded-3xl:24px;--rounded-4xl:32px;--rounded-full:9999px;--nextjs-dev-tools-scale:1;--size-1:calc(1px / var(--nextjs-dev-tools-scale));--size-2:calc(2px / var(--nextjs-dev-tools-scale));--size-3:calc(3px / var(--nextjs-dev-tools-scale));--size-4:calc(4px / var(--nextjs-dev-tools-scale));--size-5:calc(5px / var(--nextjs-dev-tools-scale));--size-6:calc(6px / var(--nextjs-dev-tools-scale));--size-7:calc(7px / var(--nextjs-dev-tools-scale));--size-8:calc(8px / var(--nextjs-dev-tools-scale));--size-9:calc(9px / var(--nextjs-dev-tools-scale));--size-10:calc(10px / var(--nextjs-dev-tools-scale));--size-11:calc(11px / var(--nextjs-dev-tools-scale));--size-12:calc(12px / var(--nextjs-dev-tools-scale));--size-13:calc(13px / var(--nextjs-dev-tools-scale));--size-14:calc(14px / var(--nextjs-dev-tools-scale));--size-15:calc(15px / var(--nextjs-dev-tools-scale));--size-16:calc(16px / var(--nextjs-dev-tools-scale));--size-17:calc(17px / var(--nextjs-dev-tools-scale));--size-18:calc(18px / var(--nextjs-dev-tools-scale));--size-20:calc(20px / var(--nextjs-dev-tools-scale));--size-22:calc(22px / var(--nextjs-dev-tools-scale));--size-24:calc(24px / var(--nextjs-dev-tools-scale));--size-26:calc(26px / var(--nextjs-dev-tools-scale));--size-28:calc(28px / var(--nextjs-dev-tools-scale));--size-30:calc(30px / var(--nextjs-dev-tools-scale));--size-32:calc(32px / var(--nextjs-dev-tools-scale));--size-34:calc(34px / var(--nextjs-dev-tools-scale));--size-36:calc(36px / var(--nextjs-dev-tools-scale));--size-38:calc(38px / var(--nextjs-dev-tools-scale));--size-40:calc(40px / var(--nextjs-dev-tools-scale));--size-42:calc(42px / var(--nextjs-dev-tools-scale));--size-44:calc(44px / var(--nextjs-dev-tools-scale));--size-46:calc(46px / var(--nextjs-dev-tools-scale));--size-48:calc(48px / var(--nextjs-dev-tools-scale));@media print{display:none}}h1,h2,h3,h4,h5,h6{margin-bottom:8px;font-weight:500;line-height:1.5}a{color:var(--color-blue-900);&:hover{color:var(--color-blue-900)}&:focus{outline:var(--focus-ring)}}</style>
+            <style>:host{--color-ansi-cyan:var(--color-syntax-keyword);--color-ansi-yellow:var(--color-syntax-function);--color-ansi-magenta:var(--color-syntax-keyword);--color-ansi-green:var(--color-syntax-string);--color-ansi-bright-black:var(--color-syntax-comment);--color-ansi-selection:var(--color-gray-alpha-300);--color-ansi-bg:var(--color-background-200);--color-ansi-fg:var(--color-gray-1000);--color-ansi-white:var(--color-gray-700);--color-ansi-black:var(--color-gray-200);--color-ansi-blue:var(--color-blue-700);--color-ansi-red:var(--color-red-700);--color-ansi-bright-white:var(--color-gray-1000);--color-ansi-bright-blue:var(--color-blue-800);--color-ansi-bright-cyan:var(--color-blue-800);--color-ansi-bright-green:var(--color-green-800);--color-ansi-bright-magenta:var(--color-blue-800);--color-ansi-bright-red:var(--color-red-800);--color-ansi-bright-yellow:var(--color-amber-900);--color-background-100:#ffffff;--color-background-200:#fafafa;--color-syntax-comment:#545454;--color-syntax-constant:#171717;--color-syntax-function:#0054ad;--color-syntax-keyword:#a51850;--color-syntax-link:#066056;--color-syntax-parameter:#8f3e00;--color-syntax-punctuation:#171717;--color-syntax-string:#036157;--color-syntax-string-expression:#066056;--color-gray-100:#f2f2f2;--color-gray-200:#ebebeb;--color-gray-300:#e6e6e6;--color-gray-400:#eaeaea;--color-gray-500:#c9c9c9;--color-gray-600:#a8a8a8;--color-gray-700:#8f8f8f;--color-gray-800:#7d7d7d;--color-gray-900:#666666;--color-gray-1000:#171717;--color-gray-alpha-100:rgba(0,0,0,0.05);--color-gray-alpha-200:rgba(0,0,0,0.081);--color-gray-alpha-300:rgba(0,0,0,0.1);--color-gray-alpha-400:rgba(0,0,0,0.08);--color-gray-alpha-500:rgba(0,0,0,0.21);--color-gray-alpha-600:rgba(0,0,0,0.34);--color-gray-alpha-700:rgba(0,0,0,0.44);--color-gray-alpha-800:rgba(0,0,0,0.51);--color-gray-alpha-900:rgba(0,0,0,0.605);--color-gray-alpha-1000:rgba(0,0,0,0.91);--color-blue-100:#f0f7ff;--color-blue-200:#edf6ff;--color-blue-300:#e1f0ff;--color-blue-400:#cde7ff;--color-blue-500:#99ceff;--color-blue-600:#52aeff;--color-blue-700:#0070f3;--color-blue-800:#0060d1;--color-blue-900:#0067d6;--color-blue-1000:#0025ad;--color-red-100:#fff0f0;--color-red-200:#ffebeb;--color-red-300:#ffe5e5;--color-red-400:#fdd8d8;--color-red-500:#f8baba;--color-red-600:#f87274;--color-red-700:#e5484d;--color-red-800:#da3036;--color-red-900:#ca2a30;--color-red-1000:#381316;--color-amber-100:#fff6e5;--color-amber-200:#fff4d5;--color-amber-300:#fef0cd;--color-amber-400:#ffddbf;--color-amber-500:#ffc96b;--color-amber-600:#f5b047;--color-amber-700:#ffb224;--color-amber-800:#ff990a;--color-amber-900:#a35200;--color-amber-1000:#4e2009;--color-green-100:#effbef;--color-green-200:#eafaea;--color-green-300:#dcf6dc;--color-green-400:#c8f1c9;--color-green-500:#99e59f;--color-green-600:#6cda76;--color-green-700:#46a758;--color-green-800:#388e4a;--color-green-900:#297c3b;--color-green-1000:#18311e;--color-turbopack-text-red:#ff1e56;--color-turbopack-text-blue:#0096ff;--color-turbopack-border-red:#f0adbe;--color-turbopack-border-blue:#adccea;--color-turbopack-background-red:#fff7f9;--color-turbopack-background-blue:#f6fbff}</style>
+            <style>.nextjs-data-copy-button{color:inherit;svg{width:var(--size-16);height:var(--size-16)}}.nextjs-data-copy-button--initial:hover{cursor:pointer}.nextjs-data-copy-button--error,.nextjs-data-copy-button--error:hover{color:var(--color-ansi-red)}.nextjs-data-copy-button--success{color:var(--color-ansi-green)}[data-nextjs-call-stack-frame-no-source]{padding:6px 8px;margin-bottom:4px;border-radius:var(--rounded-lg)}[data-nextjs-call-stack-frame-no-source]:last-child{margin-bottom:0}[data-nextjs-call-stack-frame-ignored="true"]{opacity:0.6}[data-nextjs-call-stack-frame]{user-select:text;display:block;box-sizing:border-box;user-select:text;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;padding:6px 8px;border-radius:var(--rounded-lg)}.call-stack-frame-method-name{display:flex;align-items:center;gap:4px;margin-bottom:4px;font-family:var(--font-stack-monospace);color:var(--color-gray-1000);font-size:var(--size-14);font-weight:500;line-height:var(--size-20);svg{width:var(--size-16px);height:var(--size-16px)}}.open-in-editor-button,.source-mapping-error-button{display:flex;align-items:center;justify-content:center;border-radius:var(--rounded-full);padding:4px;color:var(--color-font);svg{width:var(--size-16);height:var(--size-16)}&:focus-visible{outline:var(--focus-ring);outline-offset:-2px}&:hover{background:var(--color-gray-100)}}.call-stack-frame-file-source{color:var(--color-gray-900);font-size:var(--size-14);line-height:var(--size-20)}[data-nextjs-environment-name-label]{padding:2px 6px;margin:0;border-radius:var(--rounded-md-2);background:var(--color-gray-100);font-weight:600;font-size:var(--size-12);color:var(--color-gray-900);font-family:var(--font-stack-monospace);line-height:var(--size-20)}[data-nextjs-dialog-overlay]{position:fixed;top:0;right:0;bottom:0;left:0;z-index:9000;display:flex;align-content:center;align-items:center;flex-direction:column;padding:10vh 15px 0}@media (max-height:812px){[data-nextjs-dialog-overlay]{padding:15px 15px 0}}[data-nextjs-dialog-backdrop]{position:fixed;top:0;right:0;bottom:0;left:0;background-color:var(--color-backdrop);backdrop-filter:blur(10px);pointer-events:all;z-index:-1}[data-nextjs-dialog-backdrop-fixed]{cursor:not-allowed;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}.nextjs-toast{position:fixed;bottom:16px;left:16px;max-width:420px;z-index:9000;box-shadow:0px 16px 32px rgba(0,0,0,0.25)}@media (max-width:440px){.nextjs-toast{max-width:90vw;left:5vw}}.nextjs-toast-errors-parent{padding:16px;border-radius:var(--rounded-4xl);font-weight:500;color:var(--color-ansi-bright-white);background-color:var(--color-ansi-red)}[data-nextjs-dialog-root]{--next-dialog-radius:var(--rounded-xl);--next-dialog-max-width:960px;--next-dialog-row-padding:16px;--next-dialog-padding-x:12px;--next-dialog-notch-height:42px;--next-dialog-border-width:1px;display:flex;flex-direction:column;width:100%;max-height:calc(100% - 56px);max-width:var(--next-dialog-max-width);margin-right:auto;margin-left:auto;scale:0.98;opacity:0;transition-property:scale,opacity;transition-duration:var(--transition-duration);transition-timing-function:var(--timing-overlay);&[data-rendered='true']{opacity:1;scale:1}[data-nextjs-scroll-fader][data-side="top"]{left:1px;top:calc(var(--next-dialog-notch-height) + var(--next-dialog-border-width));width:calc(100% - var(--next-dialog-padding-x));opacity:0}}[data-nextjs-dialog]{outline:0}[data-nextjs-dialog],[data-nextjs-dialog] *{&::-webkit-scrollbar{width:6px;height:6px;border-radius:0 0 1rem 1rem;margin-bottom:1rem}&::-webkit-scrollbar-button{display:none}&::-webkit-scrollbar-track{border-radius:0 0 1rem 1rem;background-color:var(--color-background-100)}&::-webkit-scrollbar-thumb{border-radius:1rem;background-color:var(--color-gray-500)}}[data-nextjs-dialog-sizer]{overflow:hidden;border-radius:inherit}[data-nextjs-dialog-backdrop]{opacity:0;transition:opacity var(--transition-duration) var(--timing-overlay)}[data-nextjs-dialog-overlay][data-rendered='true'] [data-nextjs-dialog-backdrop]{opacity:1}[data-nextjs-dialog-content]{border:none;margin:0;display:flex;flex-direction:column;position:relative;padding:16px var(--next-dialog-padding-x)}[data-nextjs-dialog-content] > [data-nextjs-dialog-header]{flex-shrink:0;margin-bottom:8px}[data-nextjs-dialog-content] > [data-nextjs-dialog-body]{position:relative;flex:1 1 auto}@media (max-height:812px){[data-nextjs-dialog-overlay]{max-height:calc(100% - 15px)}}@media (min-width:576px){[data-nextjs-dialog-root]{--next-dialog-max-width:540px}}@media (min-width:768px){[data-nextjs-dialog-root]{--next-dialog-max-width:720px}}@media (min-width:992px){[data-nextjs-dialog-root]{--next-dialog-max-width:960px}}[data-nextjs-dialog-overlay]{padding:initial;top:10vh}.error-overlay-dialog-container{-webkit-font-smoothing:antialiased;display:flex;flex-direction:column;background:var(--color-background-100);background-clip:padding-box;border:var(--next-dialog-border-width) solid var(--color-gray-400);border-radius:0 0 var(--next-dialog-radius) var(--next-dialog-radius);box-shadow:var(--shadow-menu);position:relative;overflow:hidden}.error-overlay-dialog-scroll{overflow-y:auto;height:100%}.nextjs-container-errors-header{position:relative}.nextjs-container-errors-header > h1{font-size:var(--size-20);line-height:var(--size-24);font-weight:bold;margin:calc(16px * 1.5) 0;color:var(--color-title-h1)}.nextjs-container-errors-header small{font-size:var(--size-14);color:var(--color-accents-1);margin-left:16px}.nextjs-container-errors-header small > span{font-family:var(--font-stack-monospace)}.nextjs-container-errors-header > div > small{margin:0;margin-top:4px}.nextjs-container-errors-header > p > a{color:inherit;font-weight:bold}.nextjs-container-errors-header > .nextjs-container-build-error-version-status{position:absolute;top:16px;right:16px}[data-nextjs-error-overlay-nav]{display:flex;justify-content:space-between;align-items:center;width:100%;position:relative;z-index:2;outline:none;translate:1px 1px;max-width:var(--next-dialog-max-width);.error-overlay-notch{--stroke-color:var(--color-gray-400);--background-color:var(--color-background-100);translate:-1px 0;width:auto;height:var(--next-dialog-notch-height);padding:12px;background:var(--background-color);border:1px solid var(--stroke-color);border-bottom:none;position:relative;&[data-side='left']{padding-right:0;border-radius:var(--rounded-xl) 0 0 0;.error-overlay-notch-tail{right:-54px}> *:not(.error-overlay-notch-tail){margin-right:-10px}}&[data-side='right']{padding-left:0;border-radius:0 var(--rounded-xl) 0 0;.error-overlay-notch-tail{left:-54px;transform:rotateY(180deg)}> *:not(.error-overlay-notch-tail){margin-left:-12px}}.error-overlay-notch-tail{position:absolute;top:-1px;pointer-events:none;z-index:-1;height:calc(100% + 1px)}}}.nextjs__container_errors_label{padding:2px 6px;margin:0;border-radius:var(--rounded-md-2);background:var(--color-red-100);font-weight:600;font-size:var(--size-12);color:var(--color-red-900);font-family:var(--font-stack-monospace);line-height:var(--size-20)}.nextjs__container_errors_wrapper{position:relative}.nextjs__container_errors_desc{margin:0;margin-left:4px;color:var(--color-red-900);font-weight:500;font-size:var(--size-16);letter-spacing:-0.32px;line-height:var(--size-24);overflow-wrap:break-word;white-space:pre-wrap}.nextjs__container_errors_desc.truncated{max-height:200px;overflow:hidden}.nextjs__container_errors_gradient_overlay{position:absolute;bottom:0;left:0;right:0;height:85px;background:linear-gradient( 180deg,rgba(250,250,250,0) 0%,var(--color-background-100) 100% )}.nextjs__container_errors_expand_button{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);display:flex;align-items:center;padding:6px 8px;background:var(--color-background-100);border:1px solid var(--color-gray-alpha-400);border-radius:999px;box-shadow:0px 2px 2px var(--color-gray-alpha-100),0px 8px 8px -8px var(--color-gray-alpha-100);font-size:var(--size-13);cursor:pointer;color:var(--color-gray-900);font-weight:500;transition:background-color 0.2s ease}.nextjs__container_errors_expand_button:hover{background:var(--color-gray-100)}.error-overlay-toolbar{display:flex;gap:6px}.nodejs-inspector-button,.copy-stack-trace-button,.docs-link-button{display:flex;justify-content:center;align-items:center;width:var(--size-28);height:var(--size-28);background:var(--color-background-100);background-clip:padding-box;border:1px solid var(--color-gray-alpha-400);box-shadow:var(--shadow-small);border-radius:var(--rounded-full);svg{width:var(--size-14);height:var(--size-14)}&:focus{outline:var(--focus-ring)}&:not(:disabled):hover{background:var(--color-gray-alpha-100)}&:not(:disabled):active{background:var(--color-gray-alpha-200)}&:disabled{background-color:var(--color-gray-100);cursor:not-allowed}}.error-overlay-toolbar-button-icon{color:var(--color-gray-900)}.error-overlay-call-stack-container{position:relative;margin-top:8px}.error-overlay-call-stack-header{display:flex;justify-content:space-between;align-items:center;min-height:var(--size-28);padding:8px 8px 12px 4px;width:100%}.error-overlay-call-stack-title{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:0;color:var(--color-gray-1000);font-size:var(--size-16);font-weight:500}.error-overlay-call-stack-count{display:flex;justify-content:center;align-items:center;width:var(--size-20);height:var(--size-20);gap:4px;color:var(--color-gray-1000);text-align:center;font-size:var(--size-11);font-weight:500;line-height:var(--size-16);border-radius:var(--rounded-full);background:var(--color-gray-300)}.error-overlay-call-stack-ignored-list-toggle-button{all:unset;display:flex;align-items:center;gap:6px;color:var(--color-gray-900);font-size:var(--size-14);line-height:var(--size-20);border-radius:6px;padding:4px 6px;margin-right:-6px;transition:background 150ms ease;&:hover{background:var(--color-gray-100)}&:focus{outline:var(--focus-ring)}svg{width:var(--size-16);height:var(--size-16)}}[data-nextjs-error-label-group]{display:flex;align-items:center;gap:8px}.error-overlay-footer{display:flex;flex-direction:row;justify-content:space-between;gap:8px;padding:12px;background:var(--color-background-200);border-top:1px solid var(--color-gray-400)}.error-feedback{margin-left:auto;p{font-size:var(--size-14);font-weight:500;margin:0}}.error-overlay-footer-message{color:var(--color-gray-900);margin:0;font-size:var(--size-14);font-weight:400;line-height:var(--size-20)}.error-feedback{display:flex;align-items:center;gap:8px;white-space:nowrap;color:var(--color-gray-900)}.error-feedback-thanks{height:var(--size-24);display:flex;align-items:center;padding-right:4px}.feedback-button{background:none;border:none;border-radius:var(--rounded-md);width:var(--size-24);height:var(--size-24);display:flex;align-items:center;justify-content:center;cursor:pointer;&:focus{outline:var(--focus-ring)}&:hover{background:var(--color-gray-alpha-100)}&:active{background:var(--color-gray-alpha-200)}}.feedback-button[aria-disabled='true']{opacity:0.7;cursor:not-allowed}.feedback-button.voted{background:var(--color-gray-alpha-200)}.thumbs-up-icon,.thumbs-down-icon{color:var(--color-gray-900);width:var(--size-16);height:var(--size-16)}.error-overlay-bottom-stack-layer{width:100%;height:var(--stack-layer-height);position:relative;border:1px solid var(--color-gray-400);border-radius:var(--rounded-xl);background:var(--color-background-200);transition:translate 350ms var(--timing-swift),box-shadow 350ms var(--timing-swift)}.error-overlay-bottom-stack-layer-1{width:calc(100% - var(--size-24))}.error-overlay-bottom-stack-layer-2{width:calc(100% - var(--size-48));z-index:-1}.error-overlay-bottom-stack{width:100%;position:absolute;bottom:-1px;height:0;overflow:visible}.error-overlay-bottom-stack-stack{--stack-layer-height:44px;--stack-layer-height-half:calc(var(--stack-layer-height) / 2);--stack-layer-trim:13px;--shadow:0px 0.925px 0.925px 0px rgba(0,0,0,0.02),0px 3.7px 7.4px -3.7px rgba(0,0,0,0.04),0px 14.8px 22.2px -7.4px rgba(0,0,0,0.06);display:grid;place-items:center center;width:100%;position:fixed;overflow:hidden;z-index:-1;max-width:var(--next-dialog-max-width);.error-overlay-bottom-stack-layer{grid-area:1 / 1;translate:0 calc(var(--stack-layer-height) * -1)}&[data-stack-count='1'],&[data-stack-count='2']{.error-overlay-bottom-stack-layer-1{translate:0 calc(var(--stack-layer-height-half) * -1 - var(--stack-layer-trim))}}&[data-stack-count='2']{.error-overlay-bottom-stack-layer-2{translate:0 calc(var(--stack-layer-trim) * -1 * 2)}}&[data-stack-count='1'] .error-overlay-bottom-stack-layer-1{box-shadow:var(--shadow)}&[data-stack-count='2']{.error-overlay-bottom-stack-layer-2{box-shadow:var(--shadow)}}}.error-overlay-pagination{-webkit-font-smoothing:antialiased;display:flex;justify-content:center;align-items:center;gap:8px;width:fit-content}.error-overlay-pagination-count{color:var(--color-gray-900);text-align:center;font-size:var(--size-14);font-weight:500;line-height:var(--size-16);font-variant-numeric:tabular-nums}.error-overlay-pagination-button{display:flex;justify-content:center;align-items:center;width:var(--size-24);height:var(--size-24);background:var(--color-gray-300);flex-shrink:0;border:none;border-radius:var(--rounded-full);svg{width:var(--size-16);height:var(--size-16)}&:focus-visible{outline:var(--focus-ring)}&:not(:disabled):active{background:var(--color-gray-500)}&:disabled{opacity:0.5;cursor:not-allowed}}.error-overlay-pagination-button-icon{color:var(--color-gray-1000)}[data-nextjs-codeframe]{--code-frame-padding:12px;--code-frame-line-height:var(--size-16);background-color:var(--color-background-200);overflow:hidden;color:var(--color-gray-1000);text-overflow:ellipsis;border:1px solid var(--color-gray-400);border-radius:8px;font-family:var(--font-stack-monospace);font-size:var(--size-12);line-height:var(--code-frame-line-height);margin:8px 0;svg{width:var(--size-16);height:var(--size-16)}}.code-frame-link,.code-frame-pre{padding:var(--code-frame-padding)}.code-frame-link svg{flex-shrink:0}.code-frame-link [data-text]{display:inline-flex;text-align:left;margin:auto 6px}.code-frame-header{width:100%;transition:background 100ms ease-out;border-radius:8px 8px 0 0;border-bottom:1px solid var(--color-gray-400)}[data-with-open-in-editor-link-source-file]{padding:4px;margin:-4px 0 -4px auto;border-radius:var(--rounded-full);margin-left:auto;&:focus-visible{outline:var(--focus-ring);outline-offset:-2px}&:hover{background:var(--color-gray-100)}}[data-nextjs-codeframe]::selection,[data-nextjs-codeframe] *::selection{background-color:var(--color-ansi-selection)}[data-nextjs-codeframe] *:not(a){color:inherit;background-color:transparent;font-family:var(--font-stack-monospace)}[data-nextjs-codeframe-line][data-nextjs-codeframe-line--errored="true"]{position:relative;isolation:isolate;> span{position:relative;z-index:1}&::after{content:"";width:calc(100% + var(--code-frame-padding) * 2);height:var(--code-frame-line-height);left:calc(-1 * var(--code-frame-padding));background:var(--color-red-200);box-shadow:2px 0 0 0 var(--color-red-900) inset;position:absolute}}[data-nextjs-codeframe] > *{margin:0}.code-frame-link{display:flex;margin:0;outline:0}.code-frame-link [data-icon='right']{margin-left:auto}[data-nextjs-codeframe] div > pre{overflow:hidden;display:inline-block}[data-nextjs-codeframe] svg{color:var(--color-gray-900)}[data-nextjs-terminal]::selection,[data-nextjs-terminal] *::selection{background-color:var(--color-ansi-selection)}[data-nextjs-terminal] *{color:inherit;background-color:transparent;font-family:var(--font-stack-monospace)}[data-nextjs-terminal] > div > p{display:flex;align-items:center;justify-content:space-between;cursor:pointer;margin:0}[data-nextjs-terminal] > div > p:hover{text-decoration:underline dotted}[data-nextjs-terminal] div > pre{overflow:hidden;display:inline-block}[data-with-open-in-editor-link] svg{width:auto;height:var(--size-14);margin-left:8px}[data-with-open-in-editor-link]{cursor:pointer}[data-with-open-in-editor-link]:hover{text-decoration:underline dotted}[data-with-open-in-editor-link-import-trace]{margin-left:16px}.nextjs-error-with-static{bottom:calc(16px * 4.5)}p.nextjs__container_errors__link{font-size:var(--size-14)}p.nextjs__container_errors__notes{color:var(--color-stack-notes);font-size:var(--size-14);line-height:1.5}.nextjs-container-errors-body > h2:not(:first-child){margin-top:calc(16px + 8px)}.nextjs-container-errors-body > h2{color:var(--color-title-color);margin-bottom:8px;font-size:var(--size-20)}.nextjs-toast-errors-parent{cursor:pointer;transition:transform 0.2s ease}.nextjs-toast-errors-parent:hover{transform:scale(1.1)}.nextjs-toast-errors{display:flex;align-items:center;justify-content:flex-start}.nextjs-toast-errors > svg{margin-right:8px}.nextjs-toast-hide-button{margin-left:24px;border:none;background:none;color:var(--color-ansi-bright-white);padding:0;transition:opacity 0.25s ease;opacity:0.7}.nextjs-toast-hide-button:hover{opacity:1}.nextjs__container_errors_inspect_copy_button{cursor:pointer;background:none;border:none;color:var(--color-ansi-bright-white);font-size:var(--size-24);padding:0;margin:0;margin-left:8px;transition:opacity 0.25s ease}.nextjs__container_errors__error_title{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}.error-overlay-notes-container{margin:8px 2px}.error-overlay-notes-container p{white-space:pre-wrap}[data-nextjs-container-errors-pseudo-html]{padding:8px 0;margin:8px 0;border:1px solid var(--color-gray-400);background:var(--color-background-200);color:var(--color-syntax-constant);font-family:var(--font-stack-monospace);font-size:var(--size-12);line-height:1.33em;border-radius:var(--rounded-md-2)}[data-nextjs-container-errors-pseudo-html-line]{display:inline-block;width:100%;padding-left:40px;line-height:calc(5 / 3)}[data-nextjs-container-errors-pseudo-html--diff='error']{background:var(--color-amber-100);box-shadow:2px 0 0 0 var(--color-amber-900) inset;font-weight:bold}[data-nextjs-container-errors-pseudo-html-collapse-button]{all:unset;margin-left:12px;&:focus{outline:none}}[data-nextjs-container-errors-pseudo-html--diff='add']{background:var(--color-green-300)}[data-nextjs-container-errors-pseudo-html-line-sign]{margin-left:calc(24px * -1);margin-right:24px}[data-nextjs-container-errors-pseudo-html--diff='add'] [data-nextjs-container-errors-pseudo-html-line-sign]{color:var(--color-green-900)}[data-nextjs-container-errors-pseudo-html--diff='remove']{background:var(--color-red-300)}[data-nextjs-container-errors-pseudo-html--diff='remove'] [data-nextjs-container-errors-pseudo-html-line-sign]{color:var(--color-red-900);margin-left:calc(24px * -1);margin-right:24px}[data-nextjs-container-errors-pseudo-html--diff='error'] [data-nextjs-container-errors-pseudo-html-line-sign]{color:var(--color-amber-900)}[data-nextjs-container-errors-pseudo-html--hint]{display:inline-block;font-size:0;height:0}[data-nextjs-container-errors-pseudo-html--tag-adjacent='false']{color:var(--color-accents-1)}.nextjs__container_errors__component-stack{margin:0}[data-nextjs-container-errors-pseudo-html-collapse='true'] .nextjs__container_errors__component-stack code{max-height:120px;mask-image:linear-gradient(to bottom,rgba(0,0,0,0) 0%,black 10%);padding-bottom:40px}.nextjs__container_errors__component-stack code{display:block;width:100%;white-space:pre-wrap;scroll-snap-type:y mandatory;overflow-y:hidden}[data-nextjs-container-errors-pseudo-html--diff]{scroll-snap-align:center}.error-overlay-hydration-error-diff-plus-icon{color:var(--color-green-900)}.error-overlay-hydration-error-diff-minus-icon{color:var(--color-red-900)}.nextjs-container-build-error-version-status{-webkit-font-smoothing:antialiased;display:flex;justify-content:center;align-items:center;gap:4px;height:var(--size-26);padding:6px 8px 6px 6px;background:var(--color-background-100);background-clip:padding-box;border:1px solid var(--color-gray-alpha-400);box-shadow:var(--shadow-small);border-radius:var(--rounded-full);color:var(--color-gray-900);font-size:var(--size-12);font-weight:500;line-height:var(--size-16)}a.nextjs-container-build-error-version-status{text-decoration:none;color:var(--color-gray-900);&:hover{background:var(--color-gray-100)}&:focus{outline:var(--focus-ring)}}.version-staleness-indicator.fresh{fill:var(--color-green-800);stroke:var(--color-green-300)}.version-staleness-indicator.stale{fill:var(--color-amber-800);stroke:var(--color-amber-300)}.version-staleness-indicator.outdated{fill:var(--color-red-800);stroke:var(--color-red-300)}.version-staleness-indicator.unknown{fill:var(--color-gray-800);stroke:var(--color-gray-300)}.nextjs-container-build-error-version-status > .turbopack-text{background:linear-gradient( to right,var(--color-turbopack-text-red) 0%,var(--color-turbopack-text-blue) 100% );background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}.dev-tools-indicator-menu{-webkit-font-smoothing:antialiased;display:flex;flex-direction:column;align-items:flex-start;background:var(--color-background-100);border:1px solid var(--color-gray-alpha-400);background-clip:padding-box;box-shadow:var(--shadow-menu);border-radius:var(--rounded-xl);position:absolute;font-family:var(--font-stack-sans);z-index:1000;overflow:hidden;opacity:0;outline:0;min-width:248px;transition:opacity var(--animate-out-duration-ms) var(--animate-out-timing-function);&[data-rendered='true']{opacity:1;scale:1}}.dev-tools-indicator-inner{padding:6px;width:100%}.dev-tools-indicator-item{display:flex;align-items:center;padding:8px 6px;height:var(--size-36);border-radius:6px;text-decoration:none !important;user-select:none;white-space:nowrap;svg{width:var(--size-16);height:var(--size-16)}&:focus-visible{outline:0}}.dev-tools-indicator-footer{background:var(--color-background-200);padding:6px;border-top:1px solid var(--color-gray-400);width:100%}.dev-tools-indicator-item[data-selected='true']{cursor:pointer;background-color:var(--color-gray-200)}.dev-tools-indicator-label{font-size:var(--size-14);line-height:var(--size-20);color:var(--color-gray-1000)}.dev-tools-indicator-value{font-size:var(--size-14);line-height:var(--size-20);color:var(--color-gray-900);margin-left:auto}.dev-tools-indicator-issue-count{--color-primary:var(--color-gray-800);--color-secondary:var(--color-gray-100);display:flex;flex-direction:row;align-items:center;justify-content:center;gap:8px;min-width:var(--size-40);height:var(--size-24);background:var(--color-background-100);border:1px solid var(--color-gray-alpha-400);background-clip:padding-box;box-shadow:var(--shadow-small);padding:2px;color:var(--color-gray-1000);border-radius:128px;font-weight:500;font-size:var(--size-13);font-variant-numeric:tabular-nums;&[data-has-issues='true']{--color-primary:var(--color-red-800);--color-secondary:var(--color-red-100)}.dev-tools-indicator-issue-count-indicator{width:var(--size-8);height:var(--size-8);background:var(--color-primary);box-shadow:0 0 0 2px var(--color-secondary);border-radius:50%}}.dev-tools-indicator-shortcut{display:flex;gap:4px;kbd{width:var(--size-20);height:var(--size-20);display:flex;justify-content:center;align-items:center;border-radius:var(--rounded-md);border:1px solid var(--color-gray-400);font-family:var(--font-stack-sans);background:var(--color-background-100);color:var(--color-gray-1000);text-align:center;font-size:var(--size-12);line-height:var(--size-16)}}[data-info-popover]{-webkit-font-smoothing:antialiased;display:flex;flex-direction:column;align-items:flex-start;background:var(--color-background-100);border:1px solid var(--color-gray-alpha-400);background-clip:padding-box;box-shadow:var(--shadow-menu);border-radius:var(--rounded-xl);position:absolute;font-family:var(--font-stack-sans);z-index:1000;overflow:hidden;opacity:0;outline:0;min-width:350px;transition:opacity var(--animate-out-duration-ms) var(--animate-out-timing-function);&[data-rendered='true']{opacity:1;scale:1}button:focus-visible{outline:var(--focus-ring)}}.dev-tools-info-container{padding:12px}.dev-tools-info-title{padding:8px 6px;color:var(--color-gray-1000);font-size:var(--size-16);font-weight:600;line-height:var(--size-20);margin:0}.dev-tools-info-article{padding:8px 6px;color:var(--color-gray-1000);font-size:var(--size-14);line-height:var(--size-20);margin:0}.dev-tools-info-paragraph{&:last-child{margin-bottom:0}}.dev-tools-info-button-container{display:flex;justify-content:space-between;align-items:center;padding:8px 6px}.dev-tools-info-close-button{padding:0 8px;height:var(--size-28);font-size:var(--size-14);font-weight:500;line-height:var(--size-20);transition:background var(--duration-short) ease;color:var(--color-gray-1000);border-radius:var(--rounded-md-2);border:1px solid var(--color-gray-alpha-400);background:var(--color-background-200)}.dev-tools-info-close-button:hover{background:var(--color-gray-400)}.dev-tools-info-learn-more-button{align-content:center;padding:0 8px;height:var(--size-28);font-size:var(--size-14);font-weight:500;line-height:var(--size-20);transition:background var(--duration-short) ease;color:var(--color-background-100);border-radius:var(--rounded-md-2);background:var(--color-gray-1000)}.dev-tools-info-learn-more-button:hover{text-decoration:none;color:var(--color-background-100);opacity:0.9}.dev-tools-info-code{background:var(--color-gray-400);color:var(--color-gray-1000);font-family:var(--font-stack-monospace);padding:2px 4px;margin:0;font-size:var(--size-13);white-space:break-spaces;border-radius:var(--rounded-md-2)}.dev-tools-info-code-block-container{padding:6px}.dev-tools-info-code-block{position:relative;background:var(--color-background-200);border:1px solid var(--color-gray-alpha-400);border-radius:var(--rounded-md-2);min-width:326px}.dev-tools-info-code-block-pre{margin:0;font-family:var(--font-stack-monospace);font-size:var(--size-12)}.dev-tools-info-copy-button{position:absolute;display:flex;justify-content:center;align-items:center;right:8px;top:8px;padding:4px;height:var(--size-24);width:var(--size-24);border-radius:var(--rounded-md-2);border:1px solid var(--color-gray-alpha-400);background:var(--color-background-100)}.dev-tools-info-code-block-line{display:block;line-height:1.5;padding:0 16px}.dev-tools-info-code-block-line.dev-tools-info-highlight{border-left:2px solid var(--color-blue-900);background:var(--color-blue-400)}.dev-tools-info-code-block-json-key{color:var(--color-syntax-keyword)}.dev-tools-info-code-block-json-value{color:var(--color-syntax-link)}.preferences-container{padding:8px 6px;width:100%}@media (min-width:576px){.preferences-container{width:480px}}.preference-section:first-child{padding-top:0}.preference-section{padding:12px 0;border-bottom:1px solid var(--color-gray-400);display:flex;justify-content:space-between;align-items:center;gap:24px}.preference-section:last-child{border-bottom:none}.preference-header{margin-bottom:0;flex:1}.preference-header label{font-size:var(--size-14);font-weight:500;color:var(--color-gray-1000);margin:0}.preference-description{color:var(--color-gray-900);font-size:var(--size-14);margin:0}.select-button,.action-button{display:flex;align-items:center;gap:8px;background:var(--color-background-100);border:1px solid var(--color-gray-400);border-radius:var(--rounded-lg);font-weight:400;font-size:var(--size-14);color:var(--color-gray-1000);padding:6px 8px;&:hover{background:var(--color-gray-100)}}.select-button{&:focus-within{outline:var(--focus-ring)}select{all:unset}}:global(.icon){width:18px;height:18px;color:#666}.nextjs-scroll-fader{--blur:1px;--stop:25%;--height:150px;--color-bg:var(--color-background-100);position:absolute;pointer-events:none;user-select:none;width:100%;height:var(--height);left:0;backdrop-filter:blur(var(--blur));&[data-side="top"]{top:0;background:linear-gradient(to top,transparent,var(--color-bg));mask-image:linear-gradient(to bottom,var(--color-bg) var(--stop),transparent)}}</style>
+            <style>:host(.dark){--color-font:white;--color-backdrop:rgba(0,0,0,0.8);--color-border-shadow:rgba(255,255,255,0.145);--color-title-color:#fafafa;--color-stack-notes:#a9a9a9;--color-background-100:#0a0a0a;--color-background-200:#000000;--color-syntax-comment:#a0a0a0;--color-syntax-constant:#ededed;--color-syntax-function:#52a9ff;--color-syntax-keyword:#f76e99;--color-syntax-link:#0ac5b2;--color-syntax-parameter:#f1a10d;--color-syntax-punctuation:#ededed;--color-syntax-string:#0ac5b2;--color-syntax-string-expression:#0ac5b2;--color-gray-100:#1a1a1a;--color-gray-200:#1f1f1f;--color-gray-300:#292929;--color-gray-400:#2e2e2e;--color-gray-500:#454545;--color-gray-600:#878787;--color-gray-700:#8f8f8f;--color-gray-800:#7d7d7d;--color-gray-900:#a0a0a0;--color-gray-1000:#ededed;--color-gray-alpha-100:rgba(255,255,255,0.066);--color-gray-alpha-200:rgba(255,255,255,0.087);--color-gray-alpha-300:rgba(255,255,255,0.125);--color-gray-alpha-400:rgba(255,255,255,0.145);--color-gray-alpha-500:rgba(255,255,255,0.239);--color-gray-alpha-600:rgba(255,255,255,0.506);--color-gray-alpha-700:rgba(255,255,255,0.54);--color-gray-alpha-800:rgba(255,255,255,0.47);--color-gray-alpha-900:rgba(255,255,255,0.61);--color-gray-alpha-1000:rgba(255,255,255,0.923);--color-blue-100:#0f1b2d;--color-blue-200:#10243e;--color-blue-300:#0f3058;--color-blue-400:#0d3868;--color-blue-500:#0a4481;--color-blue-600:#0091ff;--color-blue-700:#0070f3;--color-blue-800:#0060d1;--color-blue-900:#52a9ff;--color-blue-1000:#eaf6ff;--color-red-100:#2a1314;--color-red-200:#3d1719;--color-red-300:#551a1e;--color-red-400:#671e22;--color-red-500:#822025;--color-red-600:#e5484d;--color-red-700:#e5484d;--color-red-800:#da3036;--color-red-900:#ff6369;--color-red-1000:#ffecee;--color-amber-100:#271700;--color-amber-200:#341c00;--color-amber-300:#4a2900;--color-amber-400:#573300;--color-amber-500:#693f05;--color-amber-600:#e79c13;--color-amber-700:#ffb224;--color-amber-800:#ff990a;--color-amber-900:#f1a10d;--color-amber-1000:#fef3dd;--color-green-100:#0b2211;--color-green-200:#0f2c17;--color-green-300:#11351b;--color-green-400:#0c461b;--color-green-500:#126427;--color-green-600:#1a9338;--color-green-700:#46a758;--color-green-800:#388e4a;--color-green-900:#63c174;--color-green-1000:#e5fbeb;--color-turbopack-text-red:#ff6d92;--color-turbopack-text-blue:#45b2ff;--color-turbopack-border-red:#6e293b;--color-turbopack-border-blue:#284f80;--color-turbopack-background-red:#250d12;--color-turbopack-background-blue:#0a1723}@media (prefers-color-scheme:dark){:host(:not(.light)){--color-font:white;--color-backdrop:rgba(0,0,0,0.8);--color-border-shadow:rgba(255,255,255,0.145);--color-title-color:#fafafa;--color-stack-notes:#a9a9a9;--color-background-100:#0a0a0a;--color-background-200:#000000;--color-syntax-comment:#a0a0a0;--color-syntax-constant:#ededed;--color-syntax-function:#52a9ff;--color-syntax-keyword:#f76e99;--color-syntax-link:#0ac5b2;--color-syntax-parameter:#f1a10d;--color-syntax-punctuation:#ededed;--color-syntax-string:#0ac5b2;--color-syntax-string-expression:#0ac5b2;--color-gray-100:#1a1a1a;--color-gray-200:#1f1f1f;--color-gray-300:#292929;--color-gray-400:#2e2e2e;--color-gray-500:#454545;--color-gray-600:#878787;--color-gray-700:#8f8f8f;--color-gray-800:#7d7d7d;--color-gray-900:#a0a0a0;--color-gray-1000:#ededed;--color-gray-alpha-100:rgba(255,255,255,0.066);--color-gray-alpha-200:rgba(255,255,255,0.087);--color-gray-alpha-300:rgba(255,255,255,0.125);--color-gray-alpha-400:rgba(255,255,255,0.145);--color-gray-alpha-500:rgba(255,255,255,0.239);--color-gray-alpha-600:rgba(255,255,255,0.506);--color-gray-alpha-700:rgba(255,255,255,0.54);--color-gray-alpha-800:rgba(255,255,255,0.47);--color-gray-alpha-900:rgba(255,255,255,0.61);--color-gray-alpha-1000:rgba(255,255,255,0.923);--color-blue-100:#0f1b2d;--color-blue-200:#10243e;--color-blue-300:#0f3058;--color-blue-400:#0d3868;--color-blue-500:#0a4481;--color-blue-600:#0091ff;--color-blue-700:#0070f3;--color-blue-800:#0060d1;--color-blue-900:#52a9ff;--color-blue-1000:#eaf6ff;--color-red-100:#2a1314;--color-red-200:#3d1719;--color-red-300:#551a1e;--color-red-400:#671e22;--color-red-500:#822025;--color-red-600:#e5484d;--color-red-700:#e5484d;--color-red-800:#da3036;--color-red-900:#ff6369;--color-red-1000:#ffecee;--color-amber-100:#271700;--color-amber-200:#341c00;--color-amber-300:#4a2900;--color-amber-400:#573300;--color-amber-500:#693f05;--color-amber-600:#e79c13;--color-amber-700:#ffb224;--color-amber-800:#ff990a;--color-amber-900:#f1a10d;--color-amber-1000:#fef3dd;--color-green-100:#0b2211;--color-green-200:#0f2c17;--color-green-300:#11351b;--color-green-400:#0c461b;--color-green-500:#126427;--color-green-600:#1a9338;--color-green-700:#46a758;--color-green-800:#388e4a;--color-green-900:#63c174;--color-green-1000:#e5fbeb;--color-turbopack-text-red:#ff6d92;--color-turbopack-text-blue:#45b2ff;--color-turbopack-border-red:#6e293b;--color-turbopack-border-blue:#284f80;--color-turbopack-background-red:#250d12;--color-turbopack-background-blue:#0a1723}}</style>
+          </template>
+      </nextjs-portal>
+      <script src="./index_files/[turbopack]_browser_dev_hmr-client_hmr-client_ts_61dcf9ba._.js.download"></script><script src="./index_files/[turbopack]_browser_dev_hmr-client_hmr-client_ts_66796270._.js.download"></script>
+   </body>
 </html>
